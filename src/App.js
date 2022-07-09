@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import poggers from './poggers.png';
 import './App.css';
 
@@ -26,7 +25,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={poggers}/>
+        <h2>Hello 👋, this site is currently under construction 🚧🏗️</h2>
       </header>
     </div>
   );
