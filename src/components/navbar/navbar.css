@@ -1,5 +1,17 @@
 .navbar-text {
+    background-color: white;
     font-size: medium;
+    padding: 10px;
+}
+
+.navbar-btn {
+    padding: 10px;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.navbar-btn:hover {
+    opacity: 0.5;
 }
 
 .navbar {

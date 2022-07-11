@@ -6,9 +6,9 @@ export default function NavBar() {
     <nav className="navbar navbar-default sticky-top">
       <h1 className="navbar-text">Tim.</h1>
       <div>
-        <h1 className="navbar-text">Items1</h1>
-        <h1 className="navbar-text">Items2</h1>
-        <h1 className="navbar-text">Items3</h1>
+        <button type="button" className="btn navbar-btn">Work</button>
+        <button type="button" className="btn navbar-btn">About</button>
+        <button type="button" className="btn navbar-btn">Contact</button>
       </div>
     </nav>
   )
