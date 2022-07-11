@@ -32,7 +32,7 @@ function App() {
           <HomePage/>
         </div>
         <div className="row">
-          <h1>This site is currently under construction 🚧🏗️ Come back Soon!</h1>
+          <h1>This site is currently under construction 🚧🏗️ Come back soon!</h1>
         </div>
       </div>
     </>
