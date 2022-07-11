@@ -1,5 +1,7 @@
-import poggers from './poggers.png';
-import './App.css';
+import "./App.css";
+import "@fontsource/inter";
+import HomePage from "./pages/homepage/home.tsx";
+import NavBar from "./components/navbar/navbar.tsx";
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
@@ -15,7 +17,7 @@ const firebaseConfig = {
   storageBucket: "personalsite-d051e.appspot.com",
   messagingSenderId: "805463655630",
   appId: "1:805463655630:web:93a0d4647c45062bee3c9f",
-  measurementId: "G-8RNZLYGNCE"
+  measurementId: "G-8RNZLYGNCE",
 };
 
 // Initialize Firebase
@@ -23,11 +25,16 @@ const app = initializeApp(firebaseConfig);
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h2>Hello 👋, this site is currently under construction 🚧🏗️</h2>
-      </header>
-    </div>
+    <>
+      <NavBar/>
+      <div className="grid">
+        <div className="col-1" />
+        <div className="col-10">
+          <HomePage />
+        </div>
+        <div className="col-1" />
+      </div>
+    </>
   );
 }
 
