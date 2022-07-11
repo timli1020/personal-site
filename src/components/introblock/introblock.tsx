@@ -4,10 +4,9 @@ import './introblock.css'
 export default function IntroBlock () {
     return (
         <div className="intro-block">
-            <h1 className="intro-block-text">Hello! 👋</h1>
-            <h1 className="intro-block-text">I'm Tim Li - </h1>
-            <h1 className="intro-block-text">a software engineer</h1>
-            <h1 className="intro-block-text">based in Boston, Ma.</h1>
+            <h1 className="intro-block-text desc">Hello! 👋 I'm </h1>
+            <h1 className="intro-block-text name">Tim Li</h1>
+            <h1 className="intro-block-text desc">A software engineer based in Boston.</h1>
         </div>
     )
 }
