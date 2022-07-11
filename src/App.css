@@ -40,5 +40,8 @@
 
 body {
   font-family: 'Inter';
-  padding-top: 70px;
+}
+
+.app-container {
+  padding: 50px;
 }

@@ -26,13 +26,11 @@ const app = initializeApp(firebaseConfig);
 function App() {
   return (
     <>
-      <NavBar/>
-      <div className="grid">
-        <div className="col-1" />
-        <div className="col-10">
-          <HomePage />
+      <NavBar />
+      <div className="container-fluid app-container">
+        <div className="row">
+          <HomePage/>
         </div>
-        <div className="col-1" />
       </div>
     </>
   );
