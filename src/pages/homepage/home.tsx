@@ -1,14 +1,22 @@
 import "./home.css";
 import IntroBlock from "../../components/introblock/introblock";
-import BeeMovieText from "../../components/beemovie/beemovie";
 import React from "react";
-import NavBar from "../../components/navbar/navbar";
+import About from "../../components/aboutblock/aboutblock";
 
 export default function HomePage() {
   return (
     <>
-      <IntroBlock />
-      {/* <BeeMovieText /> */}
+      <div className="col">
+        <div className="row">
+          <IntroBlock />
+        </div>
+        <div className="row">
+          <About />
+        </div>
+        <div className="row">
+          Please feel free to reach out to me!
+        </div>
+      </div>
     </>
   );
 }

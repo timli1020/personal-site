@@ -31,9 +31,6 @@ function App() {
         <div className="row">
           <HomePage/>
         </div>
-        <div className="row">
-          <h1>This site is currently under construction 🚧🏗️ Come back soon!</h1>
-        </div>
       </div>
     </>
   );

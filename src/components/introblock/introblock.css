@@ -1,14 +1,14 @@
 .intro-block-text {
     font-size: 25px;
-    line-height: 90%;
+    line-height: auto;
 }
 
 .name {
-    font-size: 64px;
-    font-weight: bold;
+    font-size: 100px;
+    font-weight: calc();
 }
 
 .desc {
-    font-size: 25px;
+    font-size: 32px;
     color: #444444;
 }
