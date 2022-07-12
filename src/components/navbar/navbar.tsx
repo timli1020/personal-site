@@ -6,9 +6,9 @@ export default function NavBar() {
     <nav className="navbar navbar-default sticky-top">
       <h1 className="navbar-text"></h1>
       <div>
-        <button type="button" className="btn navbar-btn">Github</button>
-        <button type="button" className="btn navbar-btn">LinkedIn</button>
-        <button type="button" className="btn navbar-btn">Resume</button>
+        <a href="https://github.com/timli1020" type="button" className="btn navbar-btn">Github</a>
+        <a href="https://www.linkedin.com/in/tim-li1/" type="button" className="btn navbar-btn">LinkedIn</a>
+        <a href="./Resume 2.0.pdf" type="button" className="btn navbar-btn">Resume</a>
         <button type="button" className="btn navbar-btn">Contact</button>
       </div>
     </nav>
