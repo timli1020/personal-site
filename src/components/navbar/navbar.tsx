@@ -10,7 +10,7 @@ class NavBar extends React.Component {
           <a href="https://github.com/timli1020" type="button" className="btn navbar-btn">Github</a>
           <a href="https://www.linkedin.com/in/tim-li1/" type="button" className="btn navbar-btn">LinkedIn</a>
           <a href="./resume.pdf" type="button" className="btn navbar-btn">Resume</a>
-          <a href="mailto:zhaotian.li@uconn.edu" type="button" className="btn navbar-btn SendEmail">Zhaotian.li@uconn.edu</a> 
+          <a href="mailto:zhaotian.li@uconn.edu" type="button" className="btn navbar-btn SendEmail">Contact</a> 
         </div>
       </nav>
     )
