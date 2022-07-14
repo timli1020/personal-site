@@ -1,16 +1,20 @@
 import React from "react";
-import './navbar.css'
+import './navbar.css';
 
-export default function NavBar() {
-  return (
-    <nav className="navbar navbar-default sticky-top">
-      <h1 className="navbar-text"></h1>
-      <div>
-        <a href="https://github.com/timli1020" type="button" className="btn navbar-btn">Github</a>
-        <a href="https://www.linkedin.com/in/tim-li1/" type="button" className="btn navbar-btn">LinkedIn</a>
-        <a href="./Resume 2.0.pdf" type="button" className="btn navbar-btn">Resume</a>
-        <button type="button" className="btn navbar-btn">Contact</button>
-      </div>
-    </nav>
-  )
+class NavBar extends React.Component {
+  render(): React.ReactNode {
+    return (
+      <nav className="navbar navbar-default sticky-top">
+        <h1 className="navbar-text"></h1>
+        <div>
+          <a href="https://github.com/timli1020" type="button" className="btn navbar-btn">Github</a>
+          <a href="https://www.linkedin.com/in/tim-li1/" type="button" className="btn navbar-btn">LinkedIn</a>
+          <a href="./resume.pdf" type="button" className="btn navbar-btn">Resume</a>
+          <a href="mailto:zhaotian.li@uconn.edu" type="button" className="btn navbar-btn SendEmail">Zhaotian.li@uconn.edu</a> 
+        </div>
+      </nav>
+    )
+  }
 }
+
+export default NavBar
