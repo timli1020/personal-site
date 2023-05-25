@@ -10,6 +10,7 @@ export default function TechStack () {
             <img className="techstack-icon" src="./techstackicons/react.jpeg" alt="logo" width={110} height={100}/>
             <img className="techstack-icon" src="./techstackicons/python.jpeg" alt="logo" width={100} height={100}/>
             <img className="techstack-icon" src="./techstackicons/springboot.jpeg" alt="logo" width={100} height={100}/>
+            <img className="techstack-icon" src="./techstackicons/java.jpeg" alt="logo" width={125} height={100}/>
         </div>
     )
 }
